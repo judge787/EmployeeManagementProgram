@@ -23,10 +23,14 @@ src: Contains all source files
 include: Contains the header file headerA3.h
 bin: Contains the executable file proFile
 How to Run
-To run the program, execute the following command:
 
-bash
-Copy code
-./bin/proFile
-Disclaimer
-This program is designed for educational purposes and is not intended for use in production environments. Please use it responsibly and ensure proper data handling and security measures are implemented for any commercial applications.
+To compile the program, execute the following command:
+
+make
+
+To compile the program, execute the following command:
+
+./bin/proFile filename 
+
+use filename, if you intend to load employees into the program through a text file
+
